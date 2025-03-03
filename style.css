@@ -1,36 +1,40 @@
-body{
-    background-color: #ffc300;
-    text-align: center;
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+body {
+  background-color: #ffc300;
+  text-align: center;
+  font-family: Montserrat;
 }
-h1{
-    color: white;
-    font-size: 50px;
+h1 {
+  color: white;
+  font-size: 50px;
 }
-h2,h3{
-    color: #8f6e01;
+h2,
+h3 {
+  color: #8f6e01;
 }
-h3,h4{
-    text-align: left;
+h3,
+h4 {
+  text-align: left;
 }
 div {
-    background-color: blanchedalmond;
-    border: 2px solid #8f6e01;
-    border-radius: 5px;
-    padding: 10px;
-    margin: 10px;
+  background-color: blanchedalmond;
+  border: 2px solid #8f6e01;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
 }
-p{
-    text-align: left;
+p {
+  text-align: left;
 }
-img{
-    margin: 5px;
-    border: none;
-    border-radius: 5px;
+img {
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
 }
-ul{
-    text-align: left;
+ul {
+  text-align: left;
 }
-ol li::marker{
-    color: #8f6e01;
-    font-size: 20px;
+ol li::marker {
+  color: #8f6e01;
+  font-size: 20px;
 }
