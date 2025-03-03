@@ -1,0 +1,36 @@
+body{
+    background-color: #ffc300;
+    text-align: center;
+}
+h1{
+    color: white;
+    font-size: 50px;
+}
+h2,h3{
+    color: #8f6e01;
+}
+h3,h4{
+    text-align: left;
+}
+div {
+    background-color: blanchedalmond;
+    border: 2px solid #8f6e01;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+p{
+    text-align: left;
+}
+img{
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+}
+ul{
+    text-align: left;
+}
+ol li::marker{
+    color: #8f6e01;
+    font-size: 20px;
+}
